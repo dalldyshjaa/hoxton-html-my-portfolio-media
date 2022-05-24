@@ -184,3 +184,44 @@
   grid-template-columns: 200px 200px 200px;
   gap: 50px;
 }
+.projectss {
+  padding: 90px;
+  display: grid;
+  margin: 10px;
+  border: 5px solid white;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px;
+  gap: 20px;
+}
+.project {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 80% 20%;
+  border: 2px solid rgba(8, 8, 8, 0.564);
+}
+.img-div {
+  width: 100%;
+  height: 100%;
+  background-image: url(./fjalez-alb.png);
+
+  background-size: 100%;
+}
+.projectss img {
+  height: 200px;
+  width: 100px;
+}
+.projcet-description {
+  background-color: #f4f5f6;
+  margin: 15px;
+  display: grid;
+  justify-content: center;
+}
+.pro-desc {
+  display: grid;
+  place-items: center start;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
